@@ -88,12 +88,6 @@
     [btn_Mouth setTitle:@"Mouth" forState:UIControlStateNormal];
     [btn_Mouth addTarget:self action:@selector(btn_ChangeMouth:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn_Mouth];
-    
-//    UIButton *btn_Color = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//    [btn_Color setFrame:CGRectMake(231, 440, 80, 20)];
-//    [btn_Color setTitle:@"Color" forState:UIControlStateNormal];
-//    [btn_Color addTarget:self action:@selector(btn_ChangeColor:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:btn_Color];
 
     // 初始化Display图片
     if ([self.cat isEqual:@"Man"])
